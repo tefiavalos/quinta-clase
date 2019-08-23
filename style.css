@@ -1,0 +1,13 @@
+body {
+ text-align: center;
+}
+
+.rojo {
+  height: 200px;
+  background-color: red;
+}
+
+.azul {
+  height: 200px;
+  background-color: blue;
+}
