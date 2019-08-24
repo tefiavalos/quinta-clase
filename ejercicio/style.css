@@ -59,3 +59,75 @@ img {
     padding-top: 50px;
     display: inline-block;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.one{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #1a0459;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+body{
+    text-align: center;
+}
+
+img{
+    display: inline-block;
+    width: 15%;
+    height: 15%;
+    margin-right: 5px;
+}
+
+.cabin{
+    margin-bottom: 5px;
+}
+
+.cake{
+    margin-bottom: 5px;
+}
+
+.circus{
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+.game{
+    margin-left: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+    background-color: #1abc9c;
+    color: white;
+    font-family: "montserrat";
+    text-align: center;
+
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+p{
+    display: inline-block;
+    text-align: center;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.segundo{
+    vertical-align: top
+}
+
+.two{
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+
+
