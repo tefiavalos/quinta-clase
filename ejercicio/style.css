@@ -1,26 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mina&display=swap');
+
 body{
     margin: 0px;
-    font-family:"Montserrat";
+    font-family: 'Mina', sans-serif;
     color: #ffffff;
 }
 
 .header {
     background-color: #343a40;
     height: 70px;
-    padding-left: 200px;
+    padding-left: 90px;
     font-weight: bold;
+
  }
  
  h1{
     Display:inline-block;
     font-size: 20px;
+    
  }
 
  p{
     Display:inline-block;
     font-size: 13px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 a{
@@ -28,12 +31,13 @@ a{
     padding-left: 650px;
     color: #ffffff;
     font-size: 13px;
+    margin-right: 5px;
 
 }
 
 .about {
     Display:inline-block;
-    padding-left: 0px;
+    padding-left: 3px;
     color: #ffffff;
     font-size: 13px;
 }
@@ -51,6 +55,7 @@ a{
 
 h2{
     font-size: 20px;
+   
 }
 
 img {
@@ -60,16 +65,12 @@ img {
     display: inline-block;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
 .one{
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center;
     color: #1a0459;
     font-weight: bold;
     background-color: white;
-
 }
 
 body{
@@ -98,12 +99,10 @@ img{
 .game{
     margin-left: 0;
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body{
     background-color: #1abc9c;
     color: white;
-    font-family: "montserrat";
     text-align: center;
 
 }
@@ -117,11 +116,18 @@ p{
     display: inline-block;
     text-align: center;
     text-align: justify;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 0px;
 }
 
-.segundo{
-    vertical-align: top
+
+.segundo, .primer{
+    display:inline-block;
+    width: 300px;
+    vertical-align: top;
+    text-align: left;
+    margin: 10px;
+    font-size: 12px;
 }
 
 .two{
@@ -129,5 +135,11 @@ p{
     padding-bottom: 100px;
 }
 
+#about{
+    border-bottom: 2px solid white;
+}
 
+#portfolio{
+    border-bottom: 2px solid #1a0459;
+}
 
