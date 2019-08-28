@@ -9,19 +9,20 @@ body{
 .header {
     background-color: #343a40;
     height: 70px;
-    padding-left: 90px;
+    width: 100%;
     font-weight: bold;
-
- }
+    position:fixed;
+}
  
  h1{
     Display:inline-block;
     font-size: 20px;
-    
+    position: absolute;
+   
  }
 
  .imagen-pp{
-     padding-top: 50px;
+     padding-top: 70px;
      height: 20%;
      width: 20%;
  }
@@ -29,14 +30,16 @@ body{
     Display:inline-block;
     font-size: 13px;
     margin-left: 5px;
+    position: absolute;
+    right: 20px;
 }
 
 a{
     Display:inline-block;
-    padding-left: 650px;
     color: #ffffff;
     font-size: 13px;
-    margin-right: 5px;
+    margin-right: 40px;
+    position:absolute;
 
 }
 
@@ -118,9 +121,11 @@ p{
 
 #about{
     border-bottom: 2px solid white;
+
 }
 
 #portfolio{
     border-bottom: 2px solid #1a0459;
+  
 }
 
