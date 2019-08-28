@@ -20,6 +20,11 @@ body{
     
  }
 
+ .imagen-pp{
+     padding-top: 50px;
+     height: 20%;
+     width: 20%;
+ }
  p{
     Display:inline-block;
     font-size: 13px;
@@ -58,12 +63,6 @@ h2{
    
 }
 
-img {
-    width: 200px;
-    height: 200px;
-    padding-top: 50px;
-    display: inline-block;
-}
 
 .one{
     font-size: 20px;
@@ -71,6 +70,7 @@ img {
     color: #1a0459;
     font-weight: bold;
     background-color: white;
+    padding-bottom: 70px;
 }
 
 body{
@@ -78,26 +78,11 @@ body{
 }
 
 img{
-    display: inline-block;
-    width: 15%;
-    height: 15%;
-    margin-right: 5px;
-}
-
-.cabin{
-    margin-bottom: 5px;
-}
-
-.cake{
-    margin-bottom: 5px;
-}
-
-.circus{
-    margin-right: 0;
-    margin-bottom: 5px;
-}
-.game{
-    margin-left: 0;
+    width: 20%;
+    height: 20%;
+    margin: 10px;
+    display:inline-block;
+    margin:10px;
 }
 
 body{
@@ -130,10 +115,6 @@ p{
     font-size: 12px;
 }
 
-.two{
-    background-color: white;
-    padding-bottom: 100px;
-}
 
 #about{
     border-bottom: 2px solid white;
