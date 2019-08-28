@@ -15,9 +15,10 @@ body{
 }
  
  h1{
-    Display:inline-block;
+    
     font-size: 20px;
-    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 10px;
    
  }
 
@@ -27,21 +28,14 @@ body{
      width: 20%;
  }
  p{
-    Display:inline-block;
+    
     font-size: 13px;
     margin-left: 5px;
     position: absolute;
     right: 20px;
+    top:20px;
 }
 
-a{
-    Display:inline-block;
-    color: #ffffff;
-    font-size: 13px;
-    margin-right: 40px;
-    position:absolute;
-
-}
 
 .about {
     Display:inline-block;
@@ -95,13 +89,8 @@ body{
 
 }
 
-h1{
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
 
 p{
-    display: inline-block;
     text-align: center;
     text-align: justify;
     margin-right: 10px;
@@ -124,8 +113,7 @@ p{
 
 }
 
-#portfolio{
-    border-bottom: 2px solid #1a0459;
-  
+.menu{
+    position: absolute;
 }
 
