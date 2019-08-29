@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Mina&display=swap');
 
 body{
+    text-align: center;
     margin: 0px;
     font-family: 'Mina', sans-serif;
     color: #ffffff;
@@ -77,10 +78,6 @@ h2{
     padding-bottom: 70px;
 }
 
-body{
-    text-align: center;
-}
-
 img{
     width: 20%;
     height: 20%;
@@ -97,7 +94,6 @@ body{
 }
 
 
-
 .segundo, .primer{
     display:inline-block;
     width: 300px;
@@ -108,12 +104,18 @@ body{
 }
 
 #portfolio{
+    display:inline-block;
     text-align: center;
+    width: 102px;
     border-bottom: 2px solid #343a40;
+
 }
 #about{
+    display:inline-block;
     border-bottom: 2px solid white;
+    width: 62px;
     text-align: center;
+    
 }
 
 .menu{
