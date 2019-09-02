@@ -32,17 +32,12 @@ body{
      width: 20%;
  }
  
- p{
-    display: inline-block;
-    font-size: 13px;
-    right:20px;
-    top:20px;
-}
 
 a{
     display: inline-block;
     font-size: 13px;
     color: white;
+    margin-right: 5px;
 }
 
 .about {
@@ -120,7 +115,56 @@ body{
 
 .menu{
     position: absolute;
-    top:5px;
+    top:15px;
     right:100px;
 }
 
+#contact_me{
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#contact{
+    display:inline-block;
+    text-align: center;
+    padding-top:5px;
+    color: #343a40;
+    width: 130px;
+    border-bottom: 2px solid #343a40;
+}
+form{
+    display: inline-block;
+    text-align: left;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: 'Mina', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-right: 150px;
+}
+
+textarea{
+    border: none;   
+    border-bottom: 1px solid gray;
+    font-family: 'Mina', sans-serif;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.enviar{
+    background-color: #1abc9c;
+    margin-bottom: 10px;    
+    font-family: 'Mina', sans-serif;
+    font-size: 15px;
+    color:#fff;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+}
