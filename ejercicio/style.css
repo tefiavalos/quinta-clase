@@ -168,3 +168,39 @@ textarea{
     text-align: center;
     padding: 5px;
 }
+
+button{
+    background-color: #1abc9c;
+    border:none;
+    font-family: 'Mina', sans-serif;
+    font-size: 15px;
+    color:#fff;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    position:absolute;
+    right: 50px;
+    top: 10px;
+}
+
+@media (min-width: 600px){
+    button{
+        display:none;
+    }
+
+    .menu{
+        display:inline-block;
+    }
+}
+
+@media (max-width: 600px){
+    .menu{
+        display:none;
+
+    }
+
+    button{
+        display:inline-block;
+    }
+}
